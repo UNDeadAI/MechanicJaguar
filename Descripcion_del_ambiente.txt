@@ -1,0 +1,55 @@
+Deteccion de imagenes:
+
+1. Limites de la cancha: 
+
+	lenX
+	lenY 
+
+2. Limite de area arquero (Propia):
+
+	posX
+	posY
+   ________________________
+  |           -             |
+  |----- 1  -       --2    |
+  |    |       -         -  |
+  |    |       -         - |
+  |----- 3    -    4  -  |
+  |___________-________--|
+
+3. Marcas del campo:
+
+	posX1
+	posY1
+	posX4
+	posY4
+
+3. Posicion de la bola:
+
+	posX
+	posY
+
+4. Jugadores ( Array (n)(4) )
+
+	posX
+	posY
+	theta
+	tipoJugador
+
+5. Jugadores enemigos ( Array (n)(4) )
+
+	posX
+	posY
+	theta
+	identificador
+
+
+// -------- TIPO DE DATO  -------- //
+
+posX,posY,l lenX, lenY 	: INT 0 - 
+theta			: DOUBLE de 0 - 2Pi
+tipojugador		: INT 0 - 4
+				0: Arquero
+				1: Defensa
+				2: Volante
+				3: Atacante
